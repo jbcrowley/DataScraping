@@ -27,11 +27,6 @@ namespace SeleniumFramework.Tests
         public static Dictionary<string, string> GlobalData { get; } = JsonConvert.DeserializeObject<Dictionary<string, string>>(File.ReadAllText(GlobalDataPath))!;
 
         /// <summary>
-        /// Holds the test data for the current running script.
-        /// </summary>
-        public Dictionary<string, string> TestData = new CsvTestData().GetTestData();
-
-        /// <summary>
         /// Holds the URL for the landing page.
         /// </summary>
         public string Url;

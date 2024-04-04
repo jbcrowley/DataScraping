@@ -22,6 +22,7 @@ namespace DataScraping.Tests
             PunDetailPage punDetailPage = new PunDetailPage(Driver.Value!);
             punDetailPage.ClickPrintableTab();
             List<string> output = punDetailPage.GetGeneralLeaseLegalInformation();
+            // write output to file, TBD
         }
 
         /// <summary>
