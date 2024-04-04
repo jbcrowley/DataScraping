@@ -1,0 +1,10 @@
+<RunSettings>
+  <RunConfiguration>
+    <TargetPlatform>x64</TargetPlatform>
+    <TargetFrameworkVersion>net7.0</TargetFrameworkVersion>
+  </RunConfiguration>
+  <TestRunParameters>
+    <Parameter name="browser" value="chrome" />
+    <Parameter name="environment" value="prod" />
+  </TestRunParameters>
+</RunSettings>
